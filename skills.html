@@ -1,0 +1,252 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Romain Guichard - Skills</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<link href="http://fonts.googleapis.com/css?family=Open+Sans:300,600,700" rel="stylesheet" />
+		<link rel="shortcut icon" href="http://shellcore.smspower.org/favicon.ico"/>
+		<script src="js/jquery.min.js"></script>
+		<script src="js/config.js"></script>
+		<script src="js/skel.min.js"></script>
+		<noscript>
+			<link rel="stylesheet" href="css/skel-noscript.css" />
+			<link rel="stylesheet" href="css/style.css" />
+			<link rel="stylesheet" href="css/style-desktop.css" />
+		</noscript>
+		<!--[if lte IE 9]><link rel="stylesheet" href="css/ie9.css" /><![endif]-->
+		<!--[if lte IE 8]><script src="js/html5shiv.js"></script><link rel="stylesheet" href="css/ie8.css" /><![endif]-->
+		<!--[if lte IE 7]><link rel="stylesheet" href="css/ie7.css" /><![endif]-->
+	</head>
+	<body>
+
+		<!-- Nav -->
+			<nav id="nav">
+				<ul class="container">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="#skills_network">Réseau</a></li>
+					<li><a href="#skills_system">Système/Virtualisation</a></li>
+					<li><a href="#skills_portfolio">Sécurité</a></li>
+				</ul>
+                </nav>
+
+
+            <!-- Skills -->
+			<div class="wrapper wrapper-style2">
+				<article id="skills_network">
+					<header>
+						<h2 id="cisco">Réseau</h2>
+					</header>
+					<div class="floatleft" id="ipv6">
+					<span class="competences">Cisco</span>
+					<p>
+					<strong>Expérience :</strong> 3 ans<br />
+                    <strong>Niveau de compétence :</strong> CCNA switching and routing courses, HSRP, SpanningTree (PVST/MSTP), VTP, StackWise, VSS, SPAN<br />
+                    <strong>Impliqué dans : <a href="projects.html#ua2k12">UA 2K12</a> - <a href="projects.html#nit">NITCloud</a></strong> <br />
+					</p>
+					</div>
+					<div class="floatright" id="vyatta">
+					<span class="competences">IPv6</span>
+					<p>
+					<strong>Expérience :</strong> Une seule implémentation<br />
+					<strong>Niveau de compétence :</strong>scope global/local, radvd, nddpd, dhcpv6, NAT64<br />
+					<strong>Description :</strong> Dans le cadre de notre serveur dédié chez OVH, nous avons pu expérimenter les fonctions offertes par IPv6. Les formations sur IPv6 sont extrèmements rares et il était important pour nous de nous former nous mêmes. Nous avons tout d'abord utilisé radvd pour adresser nos machines puis un dhcpv6. L'utilisation de Vyatta comme routeur nous obligeait à utiliser nddpd pour sortir sur Internet en IPv6. Un tunnel VPN en NAT64 nous permettait depuis un réseau IPv4 de sortir en IPv6. <br />
+					<strong>Impliqué dans : <a href="projects.html#ovh">OVH</a> </strong> <br />
+					</p>
+					</div>
+					<div class="floatleft" id="ipsec">
+					<span class="competences">Vyatta</span>
+					<p>
+					<strong>Expérience :</strong> 3 ans<br />
+					<strong>Niveau de connaissance :</strong> Connaissance complète<br />
+					<strong>Description :</strong> Vyatta est une solution de routage/firewalling virtuel. Basée sur Debian, elle fourni tous les outils de base nécessaire à la configuration de réseau de taille intermédiaire : IPv4/6, DHCP, dynamic routing, VPN IPsec/SSL, ACL, policies based routing etc. J'ai commencé à utiliser Vyatta lorsque mes projets ont requis l'utilisation d'un routeur/firewall ou bien d'un concentrateur VPN. Bien que Linux fournissent les mêmes outils, l'interface de Vyatta permettait (grâce aux outils Quagga) une configuration réseau rapide et efficace. Son coté software lui permet de très bien s'intégrer dans un environnement virtualisé.<br />
+					<strong>Impliqué dans : <a href="projects.html#ua2k12">UA 2K12</a> - <a href="projects.html#sia">SIA</a> - <a href="projects.html#ovh">OVH</a></strong> <br />
+					</p>
+					</div>
+					<div class="floatright" id="architecture">
+					<span class="competences">IPSec</span>
+					<p>
+					<strong>Expérience :</strong> 2 ans<br />
+					<strong>Niveau de connaissance :</strong> Connaissance complète<br />
+					<strong>Description :</strong> IPSec est utilisé dans tous types de projets. IPsec est utilisé dès lors qu'un client ne dispose pas d'un réseau MPLS et qu'un besoin d'interconnexion se fait sentir. Dans ce cadre, j'ai déployé des liaisons IPSec entre des équipements de marques différentes (Cisco, Fortigate, Juniper, Sonicwall, Checkpoint). On utilise aussi très largement IPSec pour relier l'architecture d'un client avec celle d'un cloud provider dans le cadre d'une migration ou d'une virtualisation d'architecture.<br />
+					<strong>Impliqué dans : <a href="projects.html#nit">NIT</a></strong> <br />
+					</p>
+					</div>
+					<div class="floatleft" id="fortigate">
+					<span class="competences">Architecture</span>
+					<p>
+					<strong>Expérience :</strong> 3 ans<br />
+					<strong>Niveau de compétence :</strong> Architecture LAN et virtuelle<br />
+					<strong>Description :</strong> Dans le cadre universitaire, personnelle et professionnelle, j'ai eu à définir des architectures réseau et virtuelle. Mes définitions d'architecture couvrait un périmètre LAN d'entreprise de tailles importantes incluant firewall, proxy, loadbalancing, gestion du spanning-tree, résilience etc. Lorsque une architecture virtuelle était nécessaire, mon travail concernait la définition de fonctionnement des plateformes de virtualisation (VMware, Openstack, KVM). Ceci incluant les problématiques de switch et réseau virtuels, de réservation de ressources etc.<br />
+					<br />
+					Dans le cas d'une architecture réseau, des problématiques de sécurité venaient régulièrement s'ajouter. Chaque cas est particulier et tous ne demande pas le même niveau de sécurité ce qui permet parfois de simplifier les architectures. Une simplification amène un déploiement plus simple et potentiellement une migration moins lourde pour le client.<br />
+					<br />
+					Les architectures virtuelles se basaient sur une architecture réseau potentiellement mise en place par une autre équipe. Un dialogue permanent est donc nécessaire entre nos équipes et les architectes du client afin de bien faire comprendre nos besoins dans le cas où des ajustements auraient été nécessaire.<br />
+					<strong>Impliqué dans :  <a href="projects.html#ua2K12">UA 2K12</a> - <a href="projects.html#sia">SIA</a> - <a href="projects.html#nit">NIT</a></strong> <br />
+					</p>
+					</div>
+					<div class="floatright" id="bgp">
+					<span class="competences">Fortigate</span>
+					<p>
+					<strong>Expérience :</strong> 1 ans<br />
+					<strong>Niveau de compétence :</strong> Confirmé<br />
+					<strong>Description :</strong>
+					Fortigate est une des solutions de firewalling sur laquelle j'ai été amené à travailler. Habituer aux interfaces en CLI, ma dernière interface en GUI datait des Cisco ASA et d'un point purement ergonomique, Fortigate est un des meilleurs outils que j'ai pu tester. Il a fallu tout d'abord s'habituer à la terminologie propre à Fortigate (VDOM, vdom-link etc) ainsi qu'aux petites différences par rapport à leur concurrent. J'ai été amené à effectuer des tâches d'administration courantes (policies, VPN IPsec, troubleshoot, création de VDOM etc) sur les produits mid-market/datacenter Fortigate. D'un point de vue objectif, autant l'interface web est très bien pensée (malgré quelques bugs récurrents) et permet de rendre extrêmement rapide certaines configurations (RADIUS et portail vpn par exemple), autant le troubleshooting en ligne de commande est vraiment perfectible et n'arrive pas à la hauteur de ce que peut faire JUNOS par exemple.
+ 					<br />
+					<strong>Impliqué dans : <a href="projects.html#nit">NIT</a></strong> <br />
+					</p>
+					</div>
+					<div class="floatleft" id="juniper">
+					<span class="competences">BGP</span>
+					<p>
+					<strong>Expérience :</strong> None<br />
+					<strong>Niveau de compétence :</strong> Engineer school courses, Cisco, Juniper et Vyatta configurations<br />
+					<strong>Description :</strong> Dans le cadre de projet universitaire, j'ai configuré des architectures BGP simples majoritairement sur du matériel Juniper mais aussi Cisco et Vyatta. Je suis assiduement les discussions de la mailing-list FRnOG depuis quelques années et j'assiste régulièrement au réunion. A ce titre, je me suis autoformé aux éléments de langage des réseaux d'opérateurs ainsi qu'aux pratiques en vigueurs. Tout ceci reste néanmoins purement théorique. <br />
+					<strong>Impliqué dans : Aucun</strong> <br />
+					</p>
+					</div>
+					<div class="floatright" id="juniper">
+					<span class="competences">Juniper</span>
+					<p>
+					<strong>Expérience :</strong> Travaux pratiques<br />
+					<strong>Produits :</strong> SRX 100, SSG 5 et vSRX<br />
+					<strong>Description :</strong> La gamme de produits Juniper m'a été présenté une première en école d'ingénieur (MX, SRX, EX, T). Nous avons pratiqué une première fois sur des SRX et SSG pour aborder les fonctions de base (interface, routage, nat). Un TP complet a ensuite eu lieu un an plus tard dont le but était de recréer "Internet" dans une salle de cours. Cela comportait plusieurs opérateurs et fournisseurs de contenus, du routage eBGP et iBGP, des transitaires, des routeserver etc. Tout le TP a été effectué sur des vSRX. Par rapport à ses concurrents, Juniper présente une CLI extrêmement intuitive avec un système de sous menu. Cela permet de savoir précisement à quel endroit de la configuration on se trouve. Cela provoque un gain de temps et une diminution des erreurs de configuration. Le système de commit/commit-confirm/rollback permet une gestion efficace de la configuration à la manière d'un système de gestion de versions. <br />
+					<strong>Impliqué dans : Aucun</strong> <br />
+					</p>
+					</div>
+				</article>
+			</div>
+		<!-- Sysadmin and virtualization -->
+			<div class="wrapper wrapper-style2">
+				<article id="skills_system">
+					<header>
+						<h2 id="debian">Système</h2>
+					</header>
+					<div class="floatleft" id="esxi">
+					<span class="competences">Debian</span>
+					<p>
+					<strong>Expérience :</strong> 5 ans<br />
+					<strong>Niveau de compétence :</strong> Confirmé<br />
+					<strong>Description :</strong> J'utilise Debian depuis plusieurs années pour tous mes projets impliquant l'utilisation d'un OS Linux. C'est une distribution que je connais parfaitement. Mon utilisation de Debian comprend la gestion de serveurs web (Apache et Nginx), de bases de données (MySQL, PostgreSQL), FTP (vsFTPd, proFTPd), de serveurs PXE etc. Le choix de Debian par rapport aux "concurrents" CentOS, Suse et autres s'est imposé par habitude. L'architecture des fichiers est similaire d'une distribution à une autre mais c'est avec celle de Debian que je me suis autoformé et avec celle ci où je suis le plus à l'aise à l'heure actuelle.<br />
+					La principale utilisation de Debian vient de la gestion d'hébergement à l'aide de Nginx à la fois comme reverse proxy et comme serveur web, de LVM pour la gestion des espaces disques et
+					<strong>Impliqué dans : Aucun</strong> <br />
+					</p>
+					</div>
+
+					<div class="floatright" id="dns">
+					<span class="competences">Envrionnement VMware</span>
+					<p>
+					<strong>Expérience :</strong> 2 ans<br />
+					<strong>Description :</strong> Autodidacte en ce qui concerne la virtualisation, j'ai commencé à utiliser les produits entreprise de VMware lors de projets universitaires puis j'ai confirmé ces compétences en entreprise. vCenter (4.x et 5.x) a été utilisé sur des infrastructures de petites tailles (3 hosts, 2 datastores, ~50Go RAM) avec ls outils classiques que sont Distributed vSwitch, vConverter pour virtualiser l'existant. Les datastores étaient présentés en iSCSI. Les montées de version de 5.1 à 5.5 (vCenter et ESXi) ont été gérées avec Update Manager.<br />
+					En entreprise, les infrastructures gérées ont grossis pour atteindre une quinzaine d'hosts et quelques To de RAM. vCloudDirector était la solution d'administration utilisée. Son utilisation comprenait la gestion des organisation, des réseaux externes/internes, la création des pools de ressources etc. Objectivement, le choix de vCloudDirector (antérieur à mon arrivée dans l'entreprise) ne m'a pas semblé justifié. Il ne remplace pas vCenter qui est toujours utilisé pour créer les réseaux externes, la gestion des VM est problématique dans le sens où la VM doit peut pas être lancée via vCenter au risque que celle ci soit mal reconnue par vCloudDirector. vCloudDirector implique aussi l'installation et la maintenance de vShield qui n'était à ce moment pas indispensable à notre infrastructure.
+					<br /> Lors d'intégration chez nos clients, j'ai aussi été confronté à vShield Endpoint pour l'installation d'antivirus en mode agentless. Dans le cadre de tests fonctionnels, j'ai installé et configurer vCloud Automation Center afin de proposer une offre d'orchestration de cloud hybride<br />
+					<strong>Impliqué dans :  <a href="projects.html#ua2K12">UA 2K12</a> - <a href="projects.html#sia">SIA</a> - <a href="projects.html#nit">NIT</a></strong></strong> <br />
+					</p>
+					</div>
+					<div class="floatleft" id="bash">
+					<span class="competences">DNS</span>
+					<p>
+					<strong>Expérience :</strong> 3 ans<br />
+					<strong>Niveau de compétence :</strong> Complet<br />
+					<strong>Description :</strong> Connaissance complète du DNS, son architecture (primaire, secondaire, cache, résolveurs etc), de son implémentation (BIND, unbound, djbdns) et de ses problèmes de sécurité (DNSSEC implémenté, résolveurs fermés, split-zone etc).<br />
+					<strong>Impliqué dans : Aucun</strong> <br />
+					</p>
+					</div>
+					<div class="floatright" id="openstack">
+					<span class="competences">Bash</span>
+					<p>
+					<strong>Expérience :</strong> 3 ans<br />
+					<strong>Niveau de compétence :</strong> Confirmé<br />
+					<strong>Description :</strong> J'utilise Bash comme langages de scripting pour du traitement automatisé de tâches sur mes serveurs. Je l'utilise depuis plusieurs années maintenant ce qui implique une bonne connaissance du langage, de ses avantages et de ses limitations <br />
+					<strong>Impliqué dans : Aucun</strong> <br />
+					</p>
+					</div>
+					<div class="floatleft" id="cloud">
+					<span class="competences">Openstack</span>
+					<p>
+					<strong>Expérience :</strong> 1 an<br />
+					<strong>Niveau de compétence :</strong> Bonne connaissance de l'architecture et des composants d'OpenStack. J'ai mis en place une plateforme de lab fonctionnelle basé sur OpenStack (excepté Swift). <br />
+					<strong>Impliqué dans : None</strong> <br />
+					</p>
+					</div>
+					<div class="floatright" id="datacenter">
+					<span class="competences">Cloud Computing</span>
+					<p>
+					<strong>Expérience :</strong> 2 ans<br />
+					<strong>Niveau de connaissance :</strong> Clouds privés/publics/hybrides - Openstack environnement, vCloud Suite, SUSE Cloud, AWS, Azure,<br />
+					<strong>Description :</strong> Dans l'optique de développer ou nouveau offre orientée "cloud hybride", j'ai travaillé sur les différents possibilités d'hybridation entre Openstack et les produits VMware/Microsoft ainsi qu'avec différents cloud provider (AWS, Azure, CloudWatt, Numergy etc). J'ai par la suite travaillé sur des produits de déploiement d'Openstack comme Suse Cloud (basé sur SLES) et MAAS/JuJu (basé sur Ubuntu). J'ai aussi étudié les possibilités d'hybridation avec les produits VMware/Microsoft. Enfin j'ai implémenté les produits de déploiement et d'orchestration de Suse (Suse Cloud et Suse Studio), ceux de Cannonical (MAAS/JuJu) et d'UShareSoft.<br />
+					<strong>Impliqué dans : <a href="projects.html#nit">NIT</a></strong> <br />
+					</p>
+					</div>
+					<div class="floatleft" id="freebsd">
+					<span class="competences">Datacenter</span>
+					<p>
+					<strong>Expérience :</strong> None<br />
+					<strong>Niveau de compétence :</strong> <br />
+					<strong>Description :</strong>  <br />
+					<strong>Impliqué dans :None</strong> <br />
+					</p>
+					</div>
+					<div class="floatright" id="">
+					<span class="competences">FreeBSD</span>
+					<p>
+					<strong>Expérience :</strong> 1 an<br />
+					<strong>Niveau de compétence :</strong> Administration courante de serveurs FreeBSD 7 hébergeant MX, NS, frontaux web.<br />
+					<strong>Description :</strong>  <br />
+					<strong>Impliqué dans : Free</strong> <br />
+					</p>
+					</div>
+					<footer>
+					</footer>
+				</article>
+			</div>
+		<!-- Portfolio -->
+			<div class="wrapper wrapper-style3">
+				<article id="skills_portfolio">
+					<header>
+						<h2 id="radius">Sécurité</h2>
+					</header>
+					<div class="floatleft" id="crypto">
+					<span class="competences">RADIUS</span>
+					<p>
+					<strong>Expérience :</strong> 1 an<br />
+					<strong>Niveau de compétence :</strong> Administration courante de serveurs FreeBSD 7 hébergeant MX, NS, frontaux web.<br />
+					<strong>Description :</strong> La gamme de produits Juniper m'a été présenté une première en école d'ingénieur (MX, SRX, EX, T). Nous avons pratiqué une première fois sur des SRX et SSG pour aborder les fonctions de base (interface, routage, nat). Nous avons utilisé une deuxième fois JUNOS avec un vSRX en utilisant cette fois les fonctions BGP, OSPF, PBR, security-zones. <br />
+					<strong>Impliqué dans : Free</strong> <br />
+					</p>
+					</div>
+
+					<div class="floatright" id="vpn">
+					<span class="competences">Cryptographie</span>
+					<p>
+					<strong>Expérience :</strong> 1 an<br />
+					<strong>Niveau de compétence :</strong> Administration courante de serveurs FreeBSD 7 hébergeant MX, NS, frontaux web.<br />
+					<strong>Description :</strong> La gamme de produits Juniper m'a été présenté une première en école d'ingénieur (MX, SRX, EX, T). Nous avons pratiqué une première fois sur des SRX et SSG pour aborder les fonctions de base (interface, routage, nat). Nous avons utilisé une deuxième fois JUNOS avec un vSRX en utilisant cette fois les fonctions BGP, OSPF, PBR, security-zones. <br />
+					<strong>Impliqué dans : Free</strong> <br />
+					</p>
+					</div>
+					<div class="floatleft" id="pki">
+					<span class="competences">VPN</span>
+					<p>
+					<strong>Expérience :</strong> 1 an<br />
+					<strong>Niveau de compétence :</strong> Administration courante de serveurs FreeBSD 7 hébergeant MX, NS, frontaux web.<br />
+					<strong>Description :</strong> La gamme de produits Juniper m'a été présenté une première en école d'ingénieur (MX, SRX, EX, T). Nous avons pratiqué une première fois sur des SRX et SSG pour aborder les fonctions de base (interface, routage, nat). Nous avons utilisé une deuxième fois JUNOS avec un vSRX en utilisant cette fois les fonctions BGP, OSPF, PBR, security-zones. <br />
+					<strong>Impliqué dans : Free</strong> <br />
+					</p>
+					</div>
+					<div class="floatright" id="pki">
+					<span class="competences">PKI</span>
+					<p>
+					<strong>Expérience :</strong> 1 an<br />
+					<strong>Niveau de compétence :</strong> Administration courante de serveurs FreeBSD 7 hébergeant MX, NS, frontaux web.<br />
+					<strong>Description :</strong> La gamme de produits Juniper m'a été présenté une première en école d'ingénieur (MX, SRX, EX, T). Nous avons pratiqué une première fois sur des SRX et SSG pour aborder les fonctions de base (interface, routage, nat). Nous avons utilisé une deuxième fois JUNOS avec un vSRX en utilisant cette fois les fonctions BGP, OSPF, PBR, security-zones. <br />
+					<strong>Impliqué dans : Free</strong> <br />
+					</p>
+					</div>
+					<footer>
+					</footer>
+				</article>
+			</div>
+	</body>
+</html>

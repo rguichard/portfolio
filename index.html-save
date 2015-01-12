@@ -1,0 +1,323 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Romain Guichard</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<link href="http://fonts.googleapis.com/css?family=Open+Sans:300,600,700" rel="stylesheet" />
+		<link rel="shortcut icon" href="http://shellcore.smspower.org/favicon.ico"/>
+		<script src="js/jquery.min.js"></script>
+		<script src="js/config.js"></script>
+		<script src="js/skel.min.js"></script>
+		<noscript>
+			<link rel="stylesheet" href="css/skel-noscript.css" />
+			<link rel="stylesheet" href="css/style.css" />
+			<link rel="stylesheet" href="css/style-desktop.css" />
+		</noscript>
+		<!--[if lte IE 9]><link rel="stylesheet" href="css/ie9.css" /><![endif]-->
+		<!--[if lte IE 8]><script src="js/html5shiv.js"></script><link rel="stylesheet" href="css/ie8.css" /><![endif]-->
+		<!--[if lte IE 7]><link rel="stylesheet" href="css/ie7.css" /><![endif]-->
+	</head>
+	<body>
+
+		<!-- Nav -->
+			<nav id="nav">
+				<ul class="container">
+					<li><a href="#top">Top</a></li>
+					<li><a href="#skills">Skills</a></li>
+					<li><a href="#work">Réseau</a></li>
+					<li><a href="#virtu">Virtualisation</a></li>
+					<li><a href="#portfolio">Autres</a></li>
+					<li><a href="#contact">Contact</a></li>
+				</ul>
+			</nav>
+
+		<!-- Home -->
+			<div class="wrapper wrapper-style1 wrapper-first">
+				<article class="container" id="top">
+					<div class="row">
+						<div class="4u">
+							<span class="me image image-full"><img src="images/alex-kidd.png" alt="" /></span>
+						</div>
+						<div class="8u">
+							<header>
+								<h1><strong>Romain Guichard</strong></h1>
+							</header>
+						<p>Network and Cloud Computing Engineer at <a href="http://neurones.net">NEURONES IT</a> <br />
+						Blogger on <a href="http://blog.vsense.fr/">vSense</a>.</p>
+							<!--<a href="#work" class="button button-big"></a>-->
+						</div>
+					</div>
+					<div class="row row-special">
+							<div class="12u">
+								<h3>Find me on ...</h3>
+								<ul class="social">
+									<li class="twitter"><a href="http://twitter.com/herrguichard" class="icon icon-twitter"><span>Twitter</span></a></li>
+									<li class="linkedin"><a href="http://fr.linkedin.com/in/romainguichard/" class="icon icon-linkedin"><span>LinkedIn</span></a></li>
+									<!--
+									<li class="rss"><a href="#" class="icon icon-rss"><span>RSS</span></a></li>
+									<li class="instagram"><a href="#" class="icon icon-instagram"><span>Instagram</span></a></li>
+									-->
+									<!--
+									<li class="skype"><a href="#" class="icon icon-skype"><span>Skype</span></a></li>
+									<li class="soundcloud"><a href="#" class="icon icon-soundcloud"><span>Soundcloud</span></a></li>
+									<li class="youtube"><a href="#" class="icon icon-youtube"><span>YouTube</span></a></li>
+									-->
+									<li class="blogger"><a href="http://blog.vsense.fr" class="icon icon-blogger"><span>vSense</span></a></li>
+									<li class="foursquare"><a href="https://fr.foursquare.com/herrguichard" class="icon icon-foursquare"><span>Foursquare</span></a></li>
+									<!--
+									<li class="flickr"><a href="#" class="icon icon-flickr"><span>Flickr</span></a></li>
+									<li class="vimeo"><a href="#" class="icon icon-vimeo"><span>Vimeo</span></a></li>
+									-->
+								</ul>
+							</div>
+						</div>
+				</article>
+			</div>
+			<!-- Skills -->
+			<div class="wrapper wrapper-style2">
+				<article id="skills">
+
+					<!-- Level : best, top, good, average, low -->
+
+					<table>
+					<table style="margin:auto">
+					<tr>
+					<td class="top" style="color:#318197"><a href="skills.html#bash">Bash </td>
+                    <td class="good" style="color:#84642b"><a href="skills.html#fortigate">Fortigate</a> </td>
+					<td class="best" style="color:#221b55"><a href="skills.html#debian">Debian</a> </td>
+					<td class="good"><a href="skills.html#ipsec">IPSec </td>
+					<td class="best" style="color:#84642b"><a href="skills.html#dns">DNS </td>
+					<td class="good"><a href="skills.html#openstack">OpenStack</td>
+					</tr>
+					<tr>
+					<td class="top"><a href="skills.html#architecture">Architecture </td>
+					<td class="best" style="color:#221b55"><a href="skills.html#vyatta"> Vyatta </td>
+					<td class="average"><a href="skills.html#freebsd">FreeBSD </td>
+					<td class="top" style="color:#318197"><a href="skills.html#cisco">Cisco </td>
+					<td class="average" style="color:#84642b"><a href="skills.html#juniper">Juniper </td>
+					</tr>
+					<tr>
+					<td class="good" style="color:#221b55"><a href="skills.html#cloud">Cloud Computing </td>
+					<td class="average" style="color:#318197"><a href="skills.html#cryptographie">Cryptographie </td>
+					<td class="top"><a href="skills.html#datacenter">Datacenter </td>
+					<td class="average"><a href="skills.html#bgp">BGP </td>
+					<td class="top" style="color:#84642b"><a href="skills.html#vpn">VPN </td>
+					<td class="best" style="color:#318197"><a href="skills.html#debian">Linux </td>
+					</tr>
+					<tr>
+					<td class="good" style="color:#84642b"><a href="skills.html#radius">RADIUS </td>
+					<td class="top" style="color:#221b55"><a href="skills.html#ipv6">IPv6</td>
+					<td class="average"><a href="skills.html#stonefort">StoneSoft</td>
+					<td class="good" style="color:#318197"><a href="skills.html#esxi">VMware</td>
+					<td class="top" style="color:#221b55"><a href="skills.html#pki">PKI</td>
+					</tr>
+					</table>
+				</article>
+			</div>
+		<!-- Work -->
+			<div class="wrapper wrapper-style2">
+				<article id="work">
+					<header>
+						<h2>I design network architectures...</h2>
+					</header>
+					<div class="container" style="margin:auto">
+						<div class="row">
+							<div class="4u">
+							<a href="projects.html#ua2k12" style="text-decoration:none">
+								<section class="box box-style1">
+									<span class="icon featured-icon icon-ua2k12"></span>
+									<h3>LAN Party network</h3>
+									<h4>UTT ARENA 2012</h4>
+									<p></p>
+								</section>
+							</a>
+							</div>
+							<div class="4u">
+							<a href="projects.html#sia" style="text-decoration:none">
+								<section class="box box-style1">
+									<span class="icon featured-icon icon-ung"></span>
+									<h3>Private cloud network architecture - UTT NET GROUP</h3>
+									<h4>UTT Net Group</h4>
+								</section>
+								</a>
+							</div>
+							<div class="4u">
+							<a href="projects.html#nit" style="text-decoration:none">
+								<section class="box box-style1">
+									<span class="icon featured-icon icon-nitcloud"></span>
+									<h3>Improvement and optimization of private cloud network</h3>
+									<h4>Neurones IT</h4>
+									<p></p>
+								</section>
+								</a>
+							</div>
+						</div>
+					</div>
+					<footer>
+
+					</footer>
+				</article>
+			</div>
+			<!-- Sysadmin and virtualization -->
+			<div class="wrapper wrapper-style2">
+				<article id="virtu">
+					<header>
+						<h2>build  virtualization infrastructures, manage UNIX systems...</h2>
+					</header>
+					<div class="container" style="margin:auto">
+						<div class="row">
+							<div class="4u">
+							<a href="projects.html#ovh" style="text-decoration:none">
+								<section class="box box-style1">
+									<span class="icon featured-icon icon-ovh"></span>
+									<h3>Run OVH dedicated server for personnal use and labtest</h3>
+									<p></p>
+								</section>
+								</a>
+							</div>
+							<div class="4u">
+							<a href="projects.html#sia" style="text-decoration:none">
+								<section class="box box-style1">
+									<span class="icon featured-icon icon-ung"></span>
+									<h3>Project leader for new private cloud</h3>
+									<h4>UTT Net Group</h4>
+									<p></p>
+								</section>
+								</a>
+							</div>
+							<!--
+							<div class="4u">
+								<section class="box box-style1">
+									<span class="icon featured-icon icon-thumbs-up"></span>
+									<h3>Feugiat posuere</h3>
+									<p>Ornare nulla proin odio consequat sapien vestibulum ipsum primis sed amet consequat lorem dolore.</p>
+								</section>
+							</div>
+							-->
+						</div>
+					</div>
+					<footer>
+
+					</footer>
+				</article>
+			</div>
+		<!-- Portfolio -->
+			<div class="wrapper wrapper-style3">
+				<article id="portfolio">
+					<header>
+						<h2>and write some articles and tutorials for various websites.</h2>
+						<span></span>
+					</header>
+					<div class="container">
+						<div class="row">
+							<a href="projects.html#ua2k12" style="text-decoration:none">
+							</div>
+						</div>
+						<div class="row">
+							<div class="4u">
+							<a href="http://blog.vsense.fr" style="text-decoration:none">
+								<article class="box box-style2">
+									<a href="http://blog.vsense.fr" class="image image-full"><img src="images/portfolio01.jpg" alt="" /></a>
+									<h3><a href="http://blog.vsense.fr">Blog vSense</a></h3>
+									<p></p>
+								</article>
+								</a>
+							</div>
+							<div class="4u">
+							<a href="http://siteduzero.com" style="text-decoration:none">
+								<article class="box box-style2">
+									<a href="http://siteduzero.com" class="image image-full"><img src="images/portfolio02.jpg" alt="" /></a>
+									<h3><a href="http://siteduzero.com">Tutorials with OpenClassRooms</a></h3>
+									<p></p>
+								</article>
+								</a>
+							</div>
+							<!--
+							<div class="4u">
+								<article class="box box-style2">
+									<a href="http://flypixel.com/wood-ui-kit/3574765984616310" class="image image-full"><img src="images/portfolio03.jpg" alt="" /></a>
+									<h3><a href="http://flypixel.com/wood-ui-kit/3574765984616310">Lorem ipsum</a></h3>
+									<p>Ornare nulla proin odio consequat.</p>
+								</article>
+							</div>
+						</div>
+						<div class="row">
+							<div class="4u">
+								<article class="box box-style2">
+									<a href="http://flypixel.com/n33-pattern-set-1/3522389001865317" class="image image-full"><img src="images/portfolio04.jpg" alt="" /></a>
+									<h3><a href="http://flypixel.com/n33-pattern-set-1/3522389001865317">Tempus dolore</a></h3>
+									<p>Ornare nulla proin odio consequat.</p>
+								</article>
+							</div>
+							<div class="4u">
+								<article class="box box-style2">
+									<a href="http://flypixel.com/cityscape/9803996277226316" class="image image-full"><img src="images/portfolio05.jpg" alt="" /></a>
+									<h3><a href="http://flypixel.com/cityscape/9803996277226316">Feugiat aliquam</a></h3>
+									<p>Ornare nulla proin odio consequat.</p>
+								</article>
+							</div>
+							<div class="4u">
+								<article class="box box-style2">
+									<a href="http://flypixel.com/n33" class="image image-full"><img src="images/portfolio06.jpg" alt="" /></a>
+									<h3><a href="http://flypixel.com/n33">Sed amet ornare</a></h3>
+									<p>Ornare nulla proin odio consequat.</p>
+								</article>
+							</div>
+							-->
+						</div>
+					</div>
+					<footer>
+					</footer>
+				</article>
+			</div>
+
+		<!-- Contact -->
+			<div class="wrapper wrapper-style4">
+				<article id="contact" class="container small">
+					<header>
+						<h2>Get in touch !</h2>
+					</header>
+					<div>
+						<div class="row">
+							<div class="12u">
+								<form method="post" action="#">
+									<div>
+										<div class="row half">
+											<div class="6u">
+												<input type="text" name="name" id="name" placeholder="Name" />
+											</div>
+											<div class="6u">
+												<input type="text" name="email" id="email" placeholder="Email" />
+											</div>
+										</div>
+										<div class="row half">
+											<div class="12u">
+												<input type="text" name="subject" id="subject" placeholder="Subject" />
+											</div>
+										</div>
+										<div class="row half">
+											<div class="12u">
+												<textarea name="message" id="message" placeholder="Message"></textarea>
+											</div>
+										</div>
+										<div class="row">
+											<div class="12u">
+												<a href="#" class="button form-button-submit">Send Message</a>
+												<a href="#" class="button button-alt form-button-reset">Clear Form</a>
+											</div>
+										</div>
+									</div>
+								</form>
+							</div>
+						</div>
+					</div>
+					<footer>
+					</footer>
+				</article>
+			</div>
+
+
+	</body>
+</html>
